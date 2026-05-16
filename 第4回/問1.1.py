@@ -41,6 +41,8 @@ for i in range(1, N + 1):
 print("-----------------")
 
 error_values = np.abs(np.array(y_values) - np.array(y_exact_values))
+print("誤差")
+print(error_values)
 
 plt.figure(figsize=(12, 5))
 plt.subplot(1, 2, 1)
